@@ -13,7 +13,7 @@ spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.format_sql=true
 
 # Server Configuration
-server.port=${PORT}
+server.port=${PORT:8080}
 
 # Security Configuration
 spring.security.user.name=${ADMIN_USERNAME:admin}
